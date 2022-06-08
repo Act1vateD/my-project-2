@@ -46,21 +46,18 @@ body {
   max-width: max-content;
   margin: auto;
   background: #464646;
-  width: 1152px;
-  height: 1992px;
 }
 
-.container {
-  width: 100%;
-  height: 85px;
+.head__container {
   display: flex;
   justify-content: space-between;
 }
 
 .header {
   position: relative;
-  width: 1152px;
-  height: 580px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 590px;
   background: #ffffff;
 }
 
@@ -191,10 +188,10 @@ body {
   color: #4a5568;
 }
 
-.container2 {
+.main__container {
   position: relative;
   width: 1152px;
-  height: 821px;
+  height: 701px;
 
   background: #ffffff;
 }
@@ -439,7 +436,7 @@ body {
   position: absolute;
   left: 8.4%;
   right: 0%;
-  top: 35%;
+  top: 40%;
   bottom: 0%;
 
   background: #ffffff;
@@ -457,7 +454,7 @@ body {
   position: absolute;
   left: 37.4%;
   right: 0%;
-  top: 35%;
+  top: 40%;
   bottom: 0%;
 
   background: #ffffff;
@@ -475,7 +472,7 @@ body {
   position: absolute;
   left: 66.7%;
   right: 0%;
-  top: 35%;
+  top: 40%;
   bottom: 0%;
 
   background: #ffffff;
@@ -613,4 +610,228 @@ body {
   line-height: 15px;
 
   color: #2d3748;
+}
+
+.third__container {
+  position: relative;
+  width: 1152px;
+  height: 701px;
+
+  background: #ffffff;
+}
+
+.right__third-img {
+  height: 500px;
+  width: 525px;
+  left: 440px;
+  top: 0px;
+  border-radius: 0px;
+
+  position: absolute;
+  left: 47.3%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.left__third-text {
+  height: 96px;
+  width: 308px;
+
+  position: absolute;
+  left: 6.53%;
+  right: 61.55%;
+  top: 19.6%;
+  bottom: 61.2%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+
+.left__third-content {
+  height: 500px;
+  width: 965px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  position: absolute;
+  left: 8.4%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #f7fafc;
+}
+
+.left__third-parag {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  left: 6.53%;
+  right: 61.24%;
+  top: 43.6%;
+  bottom: 33.6%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #718096;
+}
+
+.left__third-date {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  left: 6.53%;
+  right: 87.56%;
+  top: 72.6%;
+  bottom: 23.6%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* 700 */
+
+  color: #4a5568;
+}
+
+.left__third-read {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  left: 30.16%;
+  right: 61.14%;
+  top: 75.3%;
+  bottom: 23.6%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.footer__border {
+  width: 1152px;
+
+  border: 1px solid #e8e8e8;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 87%;
+  bottom: 100%;
+
+  border: 1px solid #e8e8e8;
+}
+
+.footer__text p {
+  position: absolute;
+  left: 8.07%;
+  right: 50%;
+  top: 90.53%;
+  bottom: 7.25%;
+
+  color: #000000;
+
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #000000;
+}
+
+.footer__icons {
+  position: absolute;
+  left: 80.33%;
+  right: 8.33%;
+  top: 90.33%;
+  bottom: 8.33%;
+}
+
+.icons__menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third__button {
+  height: 37px;
+  width: 122px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 82.2%;
+  right: 0%;
+  top: 76%;
+  bottom: 0%;
+  background: #6b46c1;
+  border-radius: 5px;
+}
+
+.third__button span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  position: absolute;
+  left: 9.02%;
+  right: 30.33%;
+  top: 24.32%;
+  bottom: 24.32%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.third__button img {
+  height: 16.67px;
+  width: 16.67px;
+
+  position: absolute;
+  left: 75.33%;
+  right: 8.33%;
+  top: 27.33%;
+  bottom: 8.33%;
 }
