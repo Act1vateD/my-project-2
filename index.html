@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style2.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,42 +15,36 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header">
-        <div class="header__container _container">
-          <a href="#" class="header__logo">HotCoffee</a>
-          <div class="search__menu">
-            <img class="search__logo" src="/img/search.svg" alt="search" />
-            <input class="search__form" type="text" placeholder="Search..." />
-          </div>
-          <nav class="header__menu menu">
-            <ul class="menu__list">
-              <li class="menu__text"><a href="#">Home</a></li>
-              <li class="menu__text"><a href="#">Acticle</a></li>
-
-              <li>
-                <a href="#"
-                  ><img class="nav__logo" src="/img/insta.svg" alt="insta"
-                /></a>
-              </li>
-
-              <li>
-                <a href="#"
-                  ><img class="nav__logo" src="/img/twitt.svg" alt="twitt"
-                /></a>
-              </li>
-
-              <li>
-                <a href="#"
-                  ><img class="nav__logo" src="/img/linked.svg" alt="linked"
-                /></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+     <header class="header _container">
+      <div class="header__logo"><h1>HotCoffee</h1></div>
+      <div class="header__searchbox">
+        <form action="">
+          <button type="submit"><img class="search__logo" src="/img/search.svg" alt="search" /></button>
+          <input type="text" name="search" placeholder="Search...">
+        </form>
       </div>
+      <div class="header__menu">
+      <ul class="header__icons">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Acticles</a></li>
+        <li>
+          <a href="#"><img src="/img/insta.svg" alt="Instagram"
+            /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/img/twitt.svg" alt="twitter"
+            /></a>
+        </li>
+        <li>
+          <a class="last_li" href="#"><img src="/img/linked.svg" alt="linkedIn"
+            /></a>
+        </li>
+      </ul>
+    </div>
+     </header>
       <div class="header__section _container">
         <div class="header__section-text">
-          <h1 class="header__content">Make better coffee</h1>
+          <h1 class="header__content">Make better<br> coffee</h1>
           <img src="/img/coffee.svg" alt="" class="header__content-logo" />
           <p class="header__parag">why learn how to blog?</p>
         </div>
@@ -164,9 +158,9 @@
           </div>
         </div>
         <div class="button_cont _container">
-        <button class="third__button" type="button">
+        <button class="third__button" type="s">
           <span>See more</span>
-           <img src="/img/Vector.svg" alt="Group 1"/>
+           <a href="details.html"><img src="/img/Vector.svg" alt="Group 1"/></a>
   </button>
 </div>
 <div class="footer__container _container">
