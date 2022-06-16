@@ -16,37 +16,34 @@
   <body>
     <div class="wrapper">
       <div class="container">
-        <div class="header__container _container">
-          <a href="#" class="header__logo">HotCoffee</a>
-          <div class="search__menu">
-            <img class="search__logo" src="/img/search.svg" alt="search" />
-            <input class="search__form" type="text" placeholder="Search..." />
+        <header class="header _container">
+          <div class="header__logo"><h1>HotCoffee</h1></div>
+          <div class="header__searchbox">
+            <form action="">
+              <button type="submit">
+                <img class="search__logo" src="/img/search.svg" alt="search" />
+              </button>
+              <input type="text" name="search" placeholder="Search..." />
+            </form>
           </div>
-          <nav class="header__menu menu">
-            <ul class="menu__list">
-              <li class="menu__text"><a href="#">Home</a></li>
-              <li class="menu__text"><a href="#">Acticle</a></li>
-
+          <div class="header__menu">
+            <ul class="header__icons">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Acticles</a></li>
               <li>
-                <a href="#"
-                  ><img class="nav__logo" src="/img/insta.svg" alt="insta"
-                /></a>
+                <a href="#"><img src="/img/insta.svg" alt="Instagram" /></a>
               </li>
-
               <li>
-                <a href="#"
-                  ><img class="nav__logo" src="/img/twitt.svg" alt="twitt"
-                /></a>
+                <a href="#"><img src="/img/twitt.svg" alt="twitter" /></a>
               </li>
-
               <li>
-                <a href="#"
-                  ><img class="nav__logo" src="/img/linked.svg" alt="linked"
+                <a class="last_li" href="#"
+                  ><img src="/img/linked.svg" alt="linkedIn"
                 /></a>
               </li>
             </ul>
-          </nav>
-        </div>
+          </div>
+        </header>
         <div class="main__content-logo _container">
           <img src="/img/image 8.png" alt="mujik" />
         </div>
@@ -165,7 +162,7 @@
           </div>
         </div>
         <button class="main__button" type="button">
-          <img src="/img/arrow.svg" alt="Group 1" />
+          <a href="index.html"><img src="/img/arrow.svg" alt="main page" /></a>
         </button>
         <div class="footer__container _container">
           <div class="footer__border"></div>

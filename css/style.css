@@ -538,6 +538,7 @@ body {
 }
 
 .third__button {
+  position: relative;
   height: 37px;
   width: 122px;
   border-radius: 5px;
@@ -548,7 +549,7 @@ body {
   justify-content: space-around;
 }
 
-.third__button span {
+.name__button {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -556,12 +557,16 @@ body {
   line-height: 19px;
 
   color: #ffffff;
+  margin-left: -15px;
 }
 
-.third__button img {
+.name__button img {
+  position: absolute;
+  bottom: 28%;
+  right: 5%;
   height: 16.67px;
   width: 16.67px;
-  margin-right: 4px;
+  margin-left: 6px;
 }
 .button_cont {
   width: 966px;
